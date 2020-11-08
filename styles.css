@@ -304,6 +304,7 @@ hr{
 
 .carousel__elemento{
     text-align: center;
+    margin: 5px;
 }
 
 .carousel__indicadores .glider-dot{
