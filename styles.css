@@ -266,12 +266,14 @@ hr{
     position: relative;
 }
 
+
 .carousel__anterior{
-    left: -20px;
+    left: -15px;
+    z-index: 2;
 }
 
 .carousel__siguiente{
-    right: -20px;
+    right: -15px;
 }
 
 .carousel__anterior,
@@ -289,6 +291,7 @@ hr{
     color: #ffffff;
     opacity: 100%;
     font-size: 15px;
+    
     
 }
 
