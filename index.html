@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>TechNews</title>
+
     <!--FONT AWESOME-->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    
-    <!---->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
 
+    <!-- CUSTOM STYLE -->
     <link rel="stylesheet" href="styles.css">
 
+    <!-- GLIDER STYLE -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+
 </head>
+
 <body>
     <div class="container">
 
         <div class="menu-btn">
-            <i class="fas fa-bars"></i>   
+            <i class="fas fa-bars"></i>
         </div>
         <!-- NAV MAIN -->
         <nav class="nav-main">
@@ -54,95 +62,169 @@
             </ul>
         </nav>
         <hr>
-        
+
         <!-- SHOWCASE -->
         <header class="showcase">
             <h2>Big News Today</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolores ducimus facere ea culpa molestias odio aliquid! Eum voluptatem nam deserunt, tempora officia quis maiores consectetur obcaecati doloremque voluptatum optio!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolores ducimus facere ea culpa molestias
+                odio aliquid! Eum voluptatem nam deserunt, tempora officia quis maiores consectetur obcaecati doloremque
+                voluptatum optio!</p>
             <a href="" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>
         </header>
 
-        <!-- NEWS CARDS -->
+        <!-- CAROUSEL -->
+
+        <div class="carousel">
+            <div class="carousel__contenedor">
+                <button arial-label="Anterior" class="carousel__anterior">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+
+                <div class="carousel__lista">
+
+                    <div class="carousel__elemento">
+                        <img src="img_video/pelicula1.jpg" alt="pelicula1">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+
+                    <div class="carousel__elemento">
+                        <img src="img_video/pelicula2.jpg" alt="pelicula2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+
+                    <div class="carousel__elemento">
+                        <img src="img_video/pelicula3.jpg" alt="pelicula3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+
+                    <div class="carousel__elemento">
+                        <img src="img_video/pelicula4.jpg" alt="pelicula4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+
+                    <div class="carousel__elemento">
+                        <img src="img_video/pelicula5.jpg" alt="pelicula5">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+
+                    <div class="carousel__elemento">
+                        <img src="img_video/pelicula6.jpg" alt="pelicula6">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+
+                    <div class="carousel__elemento">
+                        <img src="img_video/pelicula7.jpg" alt="pelicula7">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+
+                    <div class="carousel__elemento">
+                        <img src="img_video/pelicula8.jpg" alt="pelicula8">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+
+                </div>
+
+                <button arial-label="Siguiente" class="carousel__siguiente">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <div role="tablist" class="carousel__indicadores"></div>
+        </div>
+
+
+
+        <!-- NEWS CARDS 1 -->
         <div class="news-cards">
             <div>
                 <img src="img/noticia1.jpg" alt="">
                 <h3>Lorem ipsum dolor sit amet.</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis voluptates dolores, atque esse recusandae animi provident explicabo assumenda quam in!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis voluptates dolores, atque esse
+                    recusandae animi provident explicabo assumenda quam in!</p>
                 <a href="#">Lear More <i class="fas fa-angle-double-right"></i></a>
             </div>
 
             <div>
                 <img src="img/noticia2.jpg" alt="">
                 <h3>Lorem ipsum dolor sit amet.</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis voluptates dolores, atque esse recusandae animi provident explicabo assumenda quam in!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis voluptates dolores, atque esse
+                    recusandae animi provident explicabo assumenda quam in!</p>
                 <a href="#">Lear More <i class="fas fa-angle-double-right"></i></a>
             </div>
 
             <div>
                 <img src="img/noticia3.jpg" alt="">
                 <h3>Lorem ipsum dolor sit amet.</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis voluptates dolores, atque esse recusandae animi provident explicabo assumenda quam in!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis voluptates dolores, atque esse
+                    recusandae animi provident explicabo assumenda quam in!</p>
                 <a href="#">Lear More <i class="fas fa-angle-double-right"></i></a>
             </div>
 
             <div>
                 <img src="img/noticia4.jpg" alt="">
                 <h3>Lorem ipsum dolor sit amet.</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis voluptates dolores, atque esse recusandae animi provident explicabo assumenda quam in!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis voluptates dolores, atque esse
+                    recusandae animi provident explicabo assumenda quam in!</p>
                 <a href="#">Lear More <i class="fas fa-angle-double-right"></i></a>
             </div>
         </div>
 
-        <!--BANNER ONE-->
+        <!-- CARD BANNER ONE -->
         <section class="cards-banner-one">
             <div class="content">
                 <h2>Lorem, ipsum dolor.</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia facere ducimus qui cum pariatur provident eos placeat nam molestiae ex!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia facere ducimus qui cum pariatur
+                    provident eos placeat nam molestiae ex!</p>
                 <a href="#" class="btn">Lear More <i class="fas fa-angle-double-right"></i></a>
             </div>
         </section>
 
-         <!-- NEWS CARDS -->
-         <div class="news-cards">
+        <!-- NEWS CARDS 2 -->
+        <div class="news-cards">
             <div>
                 <img src="img/noticia1.jpg" alt="">
                 <h3>Lorem ipsum dolor sit amet.</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis voluptates dolores, atque esse recusandae animi provident explicabo assumenda quam in!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis voluptates dolores, atque esse
+                    recusandae animi provident explicabo assumenda quam in!</p>
                 <a href="#">Lear More <i class="fas fa-angle-double-right"></i></a>
             </div>
 
             <div>
                 <img src="img/noticia2.jpg" alt="">
                 <h3>Lorem ipsum dolor sit amet.</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis voluptates dolores, atque esse recusandae animi provident explicabo assumenda quam in!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis voluptates dolores, atque esse
+                    recusandae animi provident explicabo assumenda quam in!</p>
                 <a href="#">Lear More <i class="fas fa-angle-double-right"></i></a>
             </div>
 
             <div>
                 <img src="img/noticia3.jpg" alt="">
                 <h3>Lorem ipsum dolor sit amet.</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis voluptates dolores, atque esse recusandae animi provident explicabo assumenda quam in!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis voluptates dolores, atque esse
+                    recusandae animi provident explicabo assumenda quam in!</p>
                 <a href="#">Lear More <i class="fas fa-angle-double-right"></i></a>
             </div>
 
             <div>
                 <img src="img/noticia4.jpg" alt="">
                 <h3>Lorem ipsum dolor sit amet.</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis voluptates dolores, atque esse recusandae animi provident explicabo assumenda quam in!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis voluptates dolores, atque esse
+                    recusandae animi provident explicabo assumenda quam in!</p>
                 <a href="#">Lear More <i class="fas fa-angle-double-right"></i></a>
             </div>
         </div>
 
-        <!--BANNER TWO-->
+        <!-- CARD BANNER TWO -->
         <section class="cards-banner-two">
             <div class="content">
                 <h2>Lorem, ipsum dolor.</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia facere ducimus qui cum pariatur provident eos placeat nam molestiae ex!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia facere ducimus qui cum pariatur
+                    provident eos placeat nam molestiae ex!</p>
                 <a href="#" class="btn">Lear More <i class="fas fa-angle-double-right"></i></a>
             </div>
         </section>
 
-        <!-- SOCIAL -->
+        <!-- LINKS SOCIAL -->
         <section class="social">
             <p>Follow TechNews</p>
             <div class="links">
@@ -152,77 +234,118 @@
             </div>
         </section>
 
+        <!-- FOOTER LINK -->
         <div class="footer-links">
             <div class="footer-container">
                 <ul>
                     <li>
-                        <a href="#"><h3>Title One</h3></a>
+                        <a href="#">
+                            <h3>Title One</h3>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><h3>Contactenos</h3></a>
+                        <a href="#">
+                            <h3>Contactenos</h3>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><h3>Contactenos</h3></a>
+                        <a href="#">
+                            <h3>Contactenos</h3>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><h3>Contactenos</h3></a>
+                        <a href="#">
+                            <h3>Contactenos</h3>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><h3>Contactenos</h3></a>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li>
-                        <a href="#"><h3>Title Two</h3></a>
-                    </li>
-                    <li>
-                        <a href="#"><h3>Contactenos</h3></a>
-                    </li>
-                    <li>
-                        <a href="#"><h3>Contactenos</h3></a>
-                    </li>
-                    <li>
-                        <a href="#"><h3>Contactenos</h3></a>
-                    </li>
-                    <li>
-                        <a href="#"><h3>Contactenos</h3></a>
+                        <a href="#">
+                            <h3>Contactenos</h3>
+                        </a>
                     </li>
                 </ul>
 
                 <ul>
                     <li>
-                        <a href="#"><h3>Title Three</h3></a>
+                        <a href="#">
+                            <h3>Title Two</h3>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><h3>Contactenos</h3></a>
+                        <a href="#">
+                            <h3>Contactenos</h3>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><h3>Contactenos</h3></a>
+                        <a href="#">
+                            <h3>Contactenos</h3>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><h3>Contactenos</h3></a>
+                        <a href="#">
+                            <h3>Contactenos</h3>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><h3>Contactenos</h3></a>
+                        <a href="#">
+                            <h3>Contactenos</h3>
+                        </a>
                     </li>
                 </ul>
 
                 <ul>
                     <li>
-                        <a href="#"><h3>Title Four</h3></a>
+                        <a href="#">
+                            <h3>Title Three</h3>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><h3>Contactenos</h3></a>
+                        <a href="#">
+                            <h3>Contactenos</h3>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><h3>Contactenos</h3></a>
+                        <a href="#">
+                            <h3>Contactenos</h3>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><h3>Contactenos</h3></a>
+                        <a href="#">
+                            <h3>Contactenos</h3>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><h3>Contactenos</h3></a>
+                        <a href="#">
+                            <h3>Contactenos</h3>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h3>Title Four</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h3>Contactenos</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h3>Contactenos</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h3>Contactenos</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h3>Contactenos</h3>
+                        </a>
                     </li>
                 </ul>
 
@@ -230,13 +353,16 @@
             </div>
         </div>
 
+        <!-- FOOTER -->
         <footer class="footer">
             <h3>TechNews Copyright</h3>
         </footer>
 
-        
+        <!-- SCRIPTS -->
+        <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
         <script src="https://unpkg.com/scrollreveal"></script>
         <script src="main.js"></script>
 
 </body>
+
 </html>
