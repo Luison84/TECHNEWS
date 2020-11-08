@@ -308,6 +308,10 @@ hr{
     border: 2px solid #ffffff;
 }
 
+.carousel__elemento p {
+    padding-bottom: 10px;
+}
+
 .carousel__indicadores .glider-dot{
     display: block;
     width: 30px;
