@@ -303,6 +303,70 @@ hr{
     }
 }
 
+/* CAROUSEL*/
+.carousel {
+    margin-bottom: 20px;
+}
+.carousel__lista .carousel__elemento img{
+    width: 100%;
+    height: 250px;
+}
+
+.carousel__contenedor{
+    position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 25px);
+    cursor: pointer; 
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #ffffff;
+    opacity: 20%;
+    font-size: 25px;
+    
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover{
+    opacity: 100%;
+}
+
+.carousel__anterior{
+    left: -25px;
+}
+
+.carousel__siguiente{
+    right: -25px;
+}
+
+.carousel__elemento{
+    text-align: center;
+}
+
+.carousel__indicadores .glider-dot{
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #ffffff;
+    opacity: .2;
+    border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover{
+    opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active{
+    opacity: 1;
+}
 @media (max-width: 500px){
     .news-cards{
         grid-template-columns: repeat(1, 1fr);
@@ -324,3 +388,4 @@ hr{
     }
 
 }
+
